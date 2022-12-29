@@ -46,16 +46,16 @@ language_switch_hover_effect: "hover-effect"
 language_switch_top_nav: false
 
 # replace text with owner[language].brand
-brand_replace: "$site_brand"
+brand_replace: "The Pwn AD Project"
 
 # replace text with data.lang[language].constants.greeting
-greetings_replace: "$site_greetings"
+#greetings_replace: "$site_greetings"
 
 # replace text with data.lang[language].constants.welcome
-welcome_replace: "$site_welcome"
+#welcome_replace: "$site_welcome"
 
 # replace text with data.lang[language].constants.sample
-sample_replace: "$site_sample"
+#sample_replace: "$site_sample"
 
 ###########################################################
 #                Search
@@ -73,7 +73,7 @@ search_list_hide_mouseleave: false
 # when using mobile browser, search result is shown while typing, but you need to push search button on keyboard.
 # with this option search only is triggered when you finish input.
 # when using pc browser after input, push enter to search.
-search_disable_auto_search: true
+search_disable_auto_search: false
 
 # to disable auto complete for search box
 # since search bar uses dropdown list style.
@@ -119,7 +119,7 @@ color_scheme_dark: true
 # this sets default color scheme to dark. (color_scheme_dark must be enabled)
 # page start will be dark color scheme. You can change color scheme using switches
 # this feature doesn't need switches.
-color_scheme_default_dark: false
+color_scheme_default_dark: true
 
 # default color will change based on browser dark color scheme (color_scheme_default_dark should be disabled.)
 # you don't need to enable this if any switch is enabled.
@@ -187,12 +187,12 @@ side_and_top_nav_buttons:
     icon: "fa fa-pencil-square-o"
   - archives:
     icon: "fa fa-archive"
-  - projects:
-    icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
-  - about:
-    icon: "fa fa-user-o"
+      #- projects:
+      #  icon: "fa fa-cog"
+      #- links:
+      #icon: "fa fa-link"
+      #- about:
+      #icon: "fa fa-user-o"
 
 # side nav toggle feature
 # when side nav is not visible and if you click top nav toggle button, side nav slides from left to right (disables top nav buttons)
@@ -209,7 +209,7 @@ top_nav_brand_text_enable: true
 
 # set profile image
 # comment to disable the profile image
-side_nav_profile_img_path: /assets/img/posts/post_pic1.jpg
+side_nav_profile_img_path: /assets/img/posts/main_photo.jpg
 
 # this adds hover effect to bottom buttons
 side_nav_bottom_buttons_hover_effect: "hover-effect"

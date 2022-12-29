@@ -29,6 +29,7 @@ not_found:
 no_translation_tooltip: No Translation
 
 navigation:
+  brand_sub_text: By Bast1ant1c
   contact_header: Contact
 
 color_scheme_switch_tooltip: Color scheme
@@ -41,7 +42,7 @@ image_viewer:
   load_error: The image could not be loaded.
 
 copyright:
-  additional_text: " All rights reserved."
+  #additional_text: " All rights reserved."
 
 creative_commons:
   some_rights_reserved: Some rights reserved.
@@ -106,8 +107,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Topics
+  button_name: Topics
   upside_down_tabs:
     tab:
       all: All
@@ -130,10 +131,11 @@ post-list:
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: About
+  button_name: About
+    #new_posts_title: New Articles
+    #new_posts_show_more_button: View More ...
+  top_header_line1: "The Pwn AD Project"
 
 # for archives layout
 archives:
@@ -166,10 +168,15 @@ privacy-policy:
   title: &privacy_policy_title Privacy policy
 
 # constants to be replaced for
-constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
+#constants:
+#  greetings: Hello
+#  welcome: Welcome
+#  sample: Sample
+
+auto_content:
+   title: Sample post (auto generated)
+   greeting: The Pwn AD Project
+   text: Hola, soy una prueba.
 
 # for contact form
 contact_form:
