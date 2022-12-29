@@ -13,9 +13,10 @@ name: "Bast1ant1c"
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "The Pwn AD Project"
+  #title: "The Pwn AD Project"
+  top_header_line1: "The PWN AD Project"
   # if commented, top header will be a single line
-  #top_header_line2: "$site_brand"
+  #top_header_line2: "The Pwn AD Project"
 
 # about page sub title
 #about:

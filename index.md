@@ -10,7 +10,7 @@ img: ":main_photo.jpg"
 #date: 2022-03-03 12:32:00 +0000
 
 # for override items in _data/lang/[language].yml
-#title: Pwn AD
+title: "The Pwn AD Project"
 #button_name: "My button"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
 #icon: "fa fa-bath"
